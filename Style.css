@@ -1,0 +1,47 @@
+/* Color Palette */
+:root {
+    --dark-blue: #003366; /* Dark Blue */
+    --orange: #FF6600; /* Orange */
+    --yellow-orange: #FF9933; /* Yellow Orange */
+    --teal: #008080; /* Teal */
+}
+
+/* Applying the Color Palette to your website */
+
+body {
+    background-color: var(--dark-blue);
+    color: white; /* White text for contrast */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: var(--teal); /* Teal header */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: var(--orange); /* Orange navigation bar */
+    padding: 10px;
+}
+
+footer {
+    background-color: var(--yellow-orange); /* Yellow-orange footer */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+button {
+    background-color: var(--teal); /* Teal button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--orange); /* Orange on hover */
+}
